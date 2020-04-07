@@ -11,18 +11,25 @@ public class ElectronicsPage {
 		return samsungLink;
 	}
 
-	@FindBy(xpath="//div[text()='Remove']")
+	@FindBy(xpath = "//div[text()='Remove']")
 	private WebElement removeBtn;
-	
+
 	public WebElement getRemoveBtn() {
 		return removeBtn;
 	}
-	
-	@FindBy(xpath="//div[text()='Remove']")
+
+	@FindBy(xpath = "//div[text()='Remove']")
 	private WebElement confirmRemoveBtn;
 
 	public WebElement getConfirmRemoveBtn() {
 		return confirmRemoveBtn;
+	}
+
+	@FindBy(xpath = "//button[text()='+']")
+	private WebElement plusBtn;
+	
+	public WebElement getPlusBtn() {
+		return plusBtn;
 	}
 
 	@FindBy(xpath = "//a[contains(text(),'Samsung Galaxy')]")

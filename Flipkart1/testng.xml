@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.tyss.flipkart.testscripts.AddToCart"/>
-      <class name="com.tyss.flipkart.testscripts.EditUserInfo"/>
-      <class name="com.tyss.flipkart.testscripts.RemoveProductFromCart"/>
+      <class name="com.tyss.flipkart.testscripts.IncreaseQuantityOfProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
